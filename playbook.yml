@@ -1,0 +1,9 @@
+---
+- hosts: local
+  tasks:
+    - debug: var=groups
+
+
+- hosts: cigr
+  tasks:
+    - debug: var=service
